@@ -1,0 +1,62 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	background-color: #fdde7e;
+	color: #333333;
+	min-height: 100hv;
+	margin: 50px auto;
+}
+
+body * {
+box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-item {
+	width: 360px;
+	min-height: 445px;
+	border-radius: 10px;
+	padding: 45px 100px 40px 100px;
+	margin: 0 15px;
+	background: #ffffff;
+	text-align: center;
+}
+
+.cup {
+	padding: 25px 0 25px 15px;
+}
+
+h1,
+h2 {
+	margin: 0;
+	font-weight: 600;
+}
+
+h1 {
+	color: #13a066;
+}
+
+h2,
+p {
+	font-weight: 300;
+}
+
+p {
+	font-size: 20px;
+}
+
+.big {
+	height: 500px;
+	padding-top: 55px; /* По идее правильно было не ставить высоту, а сделать через align-self: stretch; но он у меня не сработал((( у flex элементов margin: auto
+	вроде бы ни у кого не было. Других ограничений по его работе я не нагуглила. Если будет время - объясни, пожалуйста, из-за чего он не сработал */
+}
+
+.bc {
+	padding-top: 45px;
+}
+
